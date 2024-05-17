@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+.wrapper {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #007765;
+  width: 100%;
+  position: fixed;
+}
+
+.top {
+  padding: 19px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top > a {
+  height: 45px;
+  margin-right: auto;
+}
+.top > a > img {
+  height: 45px;
+}
+.top__href {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  color: #ffffff;
+  font-size: 24px;
+}
+.top__href > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.top__href > span {
+  margin: 0 8px;
+}
+
+main {
+  padding-top: 83px;
+}
+
+.PiperNet {
+  padding-bottom: 160px;
+  padding-top: 160px;
+  color: #ffffff;
+  background-image: url(/img/PiperNet.png);
+  background-position: center;
+  background-size: cover;
+}
+.PiperNet__text {
+  font-size: 72px;
+  text-align: center;
+}
+
+.theproblem {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  color: #000000;
+}
+.theproblem__content > h2 {
+  text-align: center;
+  color: #007765;
+  font-size: 64px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.theproblem__content > p {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.hero {
+  background-image: url(/img/image.png);
+  background-position: center;
+  background-size: cover;
+  padding: 128px 0;
+}
+.hero__text {
+  text-align: center;
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 48px;
+}
+
+.introducing {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  color: 0;
+}
+.introducing__content > h2 {
+  text-align: center;
+  color: #007765;
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+.introducing__content > p {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.Union {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Union > img {
+  margin-right: 48px;
+  width: 115px;
+  height: 115px;
+}
+.Union > p {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.theteam {
+  padding-top: 58px;
+  padding-bottom: 27px;
+  background-color: #eeeeee;
+}
+.theteam__title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  color: #007765;
+  margin-bottom: 31px;
+}
+.theteam__cards {
+  gap: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 31px;
+}
+.theteam__item {
+  width: 33%;
+  text-align: center;
+}
+.theteam__item > img {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+.theteam__item > h4 {
+  color: #007765;
+  font-size: 24px;
+  font-weight: 700;
+}
+.theteam__item > p {
+  color: #000000;
+  font-size: 18px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer > p {
+  text-align: center;
+  width: 540px;
+}

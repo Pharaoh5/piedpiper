@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+.wrapper {
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	height: 100vh;
+}
+
+.container {
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #007765;
+	width: 100%;
+	position: fixed;
+}
+
+.top {
+	padding: 19px 0;
+	display: flex;
+	> a {
+		height: 45px;
+		margin-right: auto;
+		> img {
+			height: 45px;
+		}
+	}
+	
+	&__href {
+		display: flex;
+		align-self: center;
+		color: #ffffff;
+		font-size: 24px;
+		> a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		> span {
+			margin: 0 8px;
+			
+		}
+	}
+}
+
+.theproblem-hook {
+	/// theproblem-hook
+}
+
+.piedpipercoin-hook {
+	///piedpipercoin-hook
+}
+
+.theteam-hook {
+	///theteam-hook
+}
+
+main {
+	padding-top: 83px;
+}
+
+.PiperNet {
+	padding-bottom: 160px;
+	padding-top: 160px;
+	color: #ffffff;
+	background-image: url(/img/PiperNet.png);
+	background-position: center;
+	background-size: cover;
+
+	&__text {
+		font-size: 72px;
+		text-align: center;
+	}
+}
+
+.theproblem {
+	padding-top: 48px;
+	padding-bottom: 92px;
+	color: #000000;
+
+	&__content {
+		> h2 {
+			text-align: center;
+			color: #007765;
+			font-size: 64px;
+			margin-bottom: 16px;
+			font-weight: 500;
+		}
+		> p {
+			font-weight: 400;
+			font-size: 32px;
+		}
+	}
+}
+
+.hero {
+	background-image: url(/img/image.png);
+	background-position: center;
+	background-size: cover;
+	padding: 128px 0;
+
+	&__text {
+		text-align: center;
+		color: #FFFFFF;
+		font-style: italic;
+		font-size: 48px;
+	}
+}
+
+.introducing {
+	padding-top: 48px;
+	padding-bottom: 92px;
+	color: 000000;
+
+	&__content {
+
+		>h2 {
+				text-align: center;
+				color: #007765;
+				font-size: 64px;
+				margin-bottom: 16px;
+			}
+
+		>p {
+				font-weight: 400;
+				font-size: 32px;
+			}
+	}
+}
+.Union {
+	display: flex;
+	> img {
+		margin-right: 48px;
+		width: 115px;
+		height: 115px;
+	}
+	> p {
+		font-weight: 400;
+		font-size: 32px;
+	}
+}
+
+.theteam {
+	padding-top: 58px;
+	padding-bottom: 58px - 31px;
+	background-color: #eeeeee;
+
+	&__title {
+		text-align: center;
+		font-size: 64px;
+		font-weight: 500;
+		color: #007765;
+		margin-bottom: 31px;
+	}
+
+
+	&__cards {
+		gap: 31px;
+		display: flex;
+		margin-bottom: 31px;
+
+	}
+
+	&__item {
+		width: 33%;
+		text-align: center;
+
+		>img {
+			width: 168px;
+			height: 168px;
+			border-radius: 50%;
+			margin-bottom: 12px;
+		}
+
+		>h4 {
+			color: #007765;
+			font-size: 24px;
+			font-weight: 700;
+		}
+
+		>p {
+			color: #000000;
+			font-size: 18px;
+			font-style: italic;
+		}
+	}
+}
+
+footer {
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 62px;
+	display: flex;
+	justify-content: center;
+	> p {
+		text-align: center;
+		width: 540px;
+	}
+}
